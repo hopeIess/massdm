@@ -1,0 +1,24 @@
+{
+  "content": "{member.mention}, ***CONGRATULATIONS!*** :tada:\n\nYou've won the **$9.99 Discord Nitro** giveaway in `E-girl Heaven`\n:link: ",
+  "embed": {
+    "description": "[]()",
+    "color": 3158326,
+    "image": {
+      "url": ""
+    }
+  },
+
+  "components": [
+    {
+        "type": 1,
+        "components": [
+            {
+                "type": 2,
+                "label": "Accept | $9.99 Discord Nitro",
+                "url": "",
+                "style": 5
+            }
+        ]
+    }
+  ]
+}
