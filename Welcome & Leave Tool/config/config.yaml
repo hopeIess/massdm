@@ -1,0 +1,67 @@
+bot:
+    token: 
+    # If you want to specify a specific amount of shards, by default this is handled automatically
+    shards: 6
+    presence: false
+    owners:
+        - 
+        - 
+        - 
+        - 
+    prefixes:
+        - "<@>"
+    activity:
+        # Activity type, possible types: playing, listening, watching, streaming
+        type:
+        # The text to be disabled with the type
+        text: 
+    # Bot status, possible types: online, idle, do not disturb, invisible
+    status: 
+
+functions:
+    # Possible functions: welcomeDms, leaveDms, autoreplierDms
+    welcomeDms:
+        # Whether the function is enabled or not, enabled by default
+        enabled: true
+        # After how long the message will be deleted, disabled by default
+        deleteAfter: 1m 30s
+        # How quickly it can send a message to the same user for this function, disabled by default
+        cooldown: 60s
+    leaveDms:
+        enabled: true
+        deleteAfter: 60s
+    autoreplierDms:
+        enabled: true
+        deleteAfter: 30s
+        cooldown: 60s
+        
+logging:
+    # Whether or not logging is enabled, if this is false no logging will be enabled at all
+    enabled: true
+    # The guild id for all of the channels, this can be specified for each logging type if necessary
+    guildId: 
+    # A optional catch-all channel, if it is not specified in the logging config it will fallback to this
+    channelId: 
+    
+    guildJoin:
+        enabled: true
+        channelId: 
+    guildLeave:
+        enabled: false 
+        channelId: 
+    
+    welcomeDms:
+        enabled: false
+        channelId: 
+    leaveDms:
+        enabled: false 
+        channelId: 
+    autoreplierDms:
+        enabled: false
+        channelId: 
+    
+    ownerCommandAttempts:
+        enabled: false
+        channelId: 
+
+
